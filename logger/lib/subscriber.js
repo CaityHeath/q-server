@@ -2,7 +2,7 @@
 
 const io = require('socket.io-client');
 
-const SERVER = process.env.Q_SERVER;
+const SERVER = process.env.PORT;
 
 /** Class representing a subscriber instance to the Queue. */
 class Q {
